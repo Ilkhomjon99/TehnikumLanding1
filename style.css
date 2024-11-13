@@ -1,0 +1,797 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TTHoves-Medium';
+    src: url('./font/TTHoves-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+section.main {
+    padding-top: 40px;
+    background-image: url('./img/html_css_js\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: 35%;
+    scroll-behavior: auto;
+
+}
+
+
+
+#logo {
+    margin-left: 121px;
+    margin-top: 37px;
+    width: 295px;
+    height: 41px;
+}
+
+.info {
+
+    margin-left: 121px;
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(48px + (76 - 48) * ((110vw - 320px) / (1280 - 320)));
+}
+
+h1 {
+    margin-top: 76px;
+    margin-left: 112px;
+    font-family: 'Chava';
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+}
+
+span {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29.4px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+.main p {
+    margin-left: 121px;
+    margin-right: 229px;
+    margin-top: 40px;
+    font-family: 'TTHoves-Medium';
+    font-size: calc(18px + (27 - 18) * ((110vw - 320px) / (1280 - 320)));
+    margin-top: calc(20px + (40 - 20) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.clicks {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 328px;
+    padding: 20px 0px;
+    border-radius: 12px;
+    margin-left: 121px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 117%;
+
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+
+
+}
+
+
+button.white {
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    section.main {
+        background-position: top 80px right 10px;
+        background-size: 55%;
+        scroll-behavior: auto;
+    }
+
+    #logo {
+        margin-left: 24px;
+        margin-top: 0;
+        width: 215.14px;
+        height: 30px;
+    }
+
+    .info {
+        margin-left: 24px;
+        margin-top: 28px;
+        flex-direction: column;
+
+    }
+
+    span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-family: 'Chava';
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 46.2px;
+        margin-left: 19px;
+        margin-top: 48px;
+    }
+
+    .main p {
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: 18px;
+    }
+
+
+    button {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    button.purple {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.2px;
+        text-align: center;
+        width: 300px;
+        height: 61px;
+    }
+
+    button.white {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.2px;
+        text-align: center;
+        width: 300px;
+        height: 61px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.description {
+    margin-bottom: 60px;
+}
+
+.peoples {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 90px;
+    font-size: calc(18px + (27 - 18) * ((110vw - 320px) / (1280 - 320)));
+    line-height: 150%;
+}
+
+.student1,
+.student3 {
+    margin-left: 120px;
+    margin-right: 70px;
+    max-width: 100%;
+    height: auto;
+}
+
+.student2 {
+    margin-right: 190px;
+}
+
+
+.student4 {
+    margin-right: 163px;
+}
+
+.about {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(18px + (27 - 18) * ((110vw - 320px) / (1280 - 320)));
+    margin-top: calc(10px + (20 - 10) * ((110vw - 320px) / (1280 - 320)));
+}
+
+h2 {
+    margin-left: 120px;
+    font-family: 'TTHoves-Medium';
+    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    margin-top: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
+    text-transform: uppercase;
+    line-height: 117%;
+}
+
+h5 {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(18px + (27 - 18) * ((110vw - 320px) / (1280 - 320)));
+    margin-top: calc(10px + (20 - 10) * ((110vw - 320px) / (1280 - 320)));
+    line-height: 150%;
+    font-weight: 600;
+
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+
+    .student {
+        margin-left: 0;
+    }
+
+    .student3 br {
+        display: none;
+    }
+
+
+    h2 {
+        margin-left: 24px;
+        margin-right: 23px;
+    }
+
+    h2 br {
+        display: none;
+    }
+
+
+    .student1,
+    .student3 {
+        margin-left: 24px;
+        margin-right: 23px;
+    }
+
+    .student2,
+    .student4 {
+        margin-left: 24px;
+        margin-right: 23px;
+    }
+
+    .s1,
+    .s2,
+    .s3,
+    .s4 {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+
+section.Timer {
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(4.7vw + 20px) 0 calc(5.5vw + 17px);
+}
+
+.Timer h3 {
+    font-family: 'TTHoves-Medium';
+    color: white;
+    font-size: calc(2vw + 26.5px);
+    margin-bottom: calc(4.1vw + 4.7px);
+}
+
+.time {
+    display: flex;
+    gap: calc(6.3vw + 5px);
+    margin-bottom: calc(4vw + 6px);
+    /*margin-right: 100px;*/
+}
+
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family: "Chava", sans-serif;
+}
+
+.timeCard span {
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-size: calc(10px + (27 - 10) * ((110vw - 320px) / (1280 - 320)));
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .date {
+
+        margin-bottom: 0;
+    }
+
+    .Btn {
+        margin-right: 10px;
+    }
+
+    .Timer h3 {
+        max-width: 200px;
+        white-space: normal;
+        text-align: center;
+        line-height: 35px;
+    }
+
+}
+
+
+
+
+
+
+section {
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
+}
+
+
+.Teacher h2 {
+    font-size: calc(30px + (58 - 30) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    margin-bottom: calc(5.2vw + 23px);
+    text-transform: uppercase;
+    line-height: 117%;
+}
+
+
+.infoContainer {
+    display: flex;
+    gap: calc(3.2vw + 10px);
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    flex-wrap: wrap;
+}
+
+
+.infoCard {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.infoCard img {
+    width: 100%;
+}
+
+
+
+.aboutTeacher {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+.aboutTeacher h4 {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(35px + (48 - 35) * ((100vw - 320px) / (1280 - 320)));
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 20px;
+    line-height: 120%;
+}
+
+.aboutTeacher p {
+    font-size: calc(18px + (27 - 18) * ((100vw - 320px) / (1280 - 320)));
+    line-height: 140%;
+    /* margin-bottom: 60px; */
+}
+
+
+
+.legendSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(30px + (40 - 30) * ((100vw - 320px) / (1280 - 320)));
+    column-gap: calc(15px + (90 - 15) * ((100vw - 320px) / (1280 - 320)));
+    margin-top: calc(40px + (80 - 40) * ((100vw - 320px) / (1280 - 320)));
+}
+
+.skill img {
+    width: 36px;
+}
+
+.skill span {
+    display: block;
+    margin-top: 10px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1280 - 320)));
+    line-height: 140%;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .Teacher h2 {
+        white-space: nowrap;
+    }
+
+    .aboutTeacher h4 {
+        white-space: nowrap;
+    }
+
+    .aboutTeacher P br {
+        display: none;
+    }
+
+    .skill span br {
+        display: none;
+    }
+
+    .skill span {
+        display: grid;
+    }
+}
+
+
+
+
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+
+}
+
+.column1,
+.column3 {
+    margin-right: 120px;
+}
+
+.column2 {
+    margin-right: 100px;
+}
+
+.column4 {
+    margin-right: 100px;
+}
+
+.aboutus h4 {
+    font-size: calc(18px + (27 - 18) * ((110vw - 320px) / (1280 - 320)));
+    line-height: 150%;
+    margin-top: 90px;
+}
+
+
+.describe {
+    font-family: 'TTHoves-Medium';
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 150%;
+    font-size: calc(18px + (27 - 18) * ((100vw - 320px) / (1280 - 320)));
+}
+
+.study {
+    font-family: 'TTHoves-Medium';
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.verstka h2 {
+    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    margin-top: calc(40px + (80 - 40) * ((110vw - 320px) / (1280 - 320)));
+
+    text-transform: uppercase;
+    line-height: 117%;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+
+    .aboutus {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .aboutus h4 {
+        margin-top: 30px;
+        font-weight: 600;
+    }
+
+    .verstka h2 {
+        margin-right: 23px;
+        margin-left: 23px;
+    }
+
+    .column1,
+    .column2,
+    .column3,
+    .column4 {
+        margin-right: 0;
+    }
+
+    .study {
+        margin-top: 30px;
+        white-space: normal;
+    }
+
+}
+
+
+.program {
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+}
+.frameBox h3 {
+    font-family: 'TTHoves-Medium';
+    text-transform: uppercase;
+    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    line-height: 130%;
+    
+}
+
+.frameBox {
+    border: 2px solid black;
+    padding: calc(40px + (80 - 40) * ((110vw - 320px) / (1280 - 320)))
+             calc(20px + (52 - 20) * ((110vw - 320px) / (1280 - 320)))
+             calc(23px + (35 - 23) * ((110vw - 320px) / (1280 - 320)));
+    position: relative;
+}
+
+ #corner {
+    width:  calc(40px + (100 - 40) * ((110vw - 320px) / (1280 - 320)));
+    position: absolute;
+    top: -4px;
+    right: -4px;
+}
+
+ .lessons {
+           margin-top: calc(24px + (40 - 24) * ((110vw - 320px) / (1280 - 320)));
+           margin-bottom: calc(23px + (34 - 23) * ((110vw - 320px) / (1280 - 320)));
+            list-style-type: none; 
+        } 
+    .lessons li {
+        font-family: 'TTHoves-Medium';
+        font-weight: 400;
+        font-size: calc(16px + (21 - 16) * ((110vw - 320px) / (1280 - 320)));
+        border-bottom: 1px solid #a1a1a1;
+        padding: 24px 0;
+
+    }
+    .lessons li:first-child {
+        padding-top: 0;
+    }
+
+  .program button {
+    margin: 0 auto;
+    display: block;
+  }
+  .mobile {
+    display: none !important;
+  }
+
+  @media (min-width: 320px) and (max-width: 500px) {
+    .mobile {
+        display: block !important;
+    }
+    .desktop {
+        display: none !important;
+    }
+    .program button {
+        margin-top: 34px;
+    }
+
+    .lessons li:last-child {
+        border: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+
+.Diplom {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+}
+    
+    
+ .Diplom span {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(18px + (27 - 18) * ((100vw - 320px) / (1280 - 320)));
+    margin-right: 60px;
+ }
+    
+ .Diplom img {
+     grid-row: 1/3;
+     align-self: center;
+     width: 430px;
+     height: 300px;
+    }
+    
+    .Diplom h3 {
+       font-family: 'TTHoves-Medium';
+      margin-bottom: 0;
+      font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 68px;
+      white-space: normal;
+    }
+    
+    @media (min-width: 320px) and (max-width: 500px) {
+       .Diplom {
+          grid-template-columns: 1fr;
+       }
+       .Diplom img {
+          grid-row: 2/3;
+           width: 100%; 
+           height: 229px;
+        }
+          
+        .Diplom h3 {
+         line-height: 40px;
+        }
+        .Diplom span {
+            margin-right: 0;
+        }
+    }
+
+
+
+    .job {
+        padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    }
+    .job h3 {
+        font-family: 'TTHoves-Medium';
+        font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 117%;
+        margin-right: 300px;
+    }
+    .job p {
+      font-size: calc(18px + (27 - 18) * ((110vw - 320px) / (1280 - 320)));
+      font-family: 'TTHoves-Medium';
+      margin-right: 100px;
+      margin-top: 40px;
+   }
+   .job img {
+      margin-top: 36px;
+   }
+      
+   @media (min-width: 320px) and (max-width: 500px) {
+     .job img {
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+      margin-left: -15px;
+   }
+   .job h3 {
+    margin-right: 0;
+   }
+   .job p {
+    margin-right: 0;
+    margin-top: 20px;
+   }
+  }
+
+
+  .studentBox {
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+  }
+  
+  .presentBox {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+ .presentBox img {
+    grid-row: 1/3;
+    width:  579px;
+    height: 354px;
+    margin-top: 30px;
+    
+}
+.insideBox {
+margin-top: 60px;
+}
+    
+.insideBox p {
+  font-size: calc(18px + (21 - 18) * ((100vw - 320px) / (1280 - 320)));
+  font-family: 'TTHoves-Medium';
+   line-height: 140%;
+   margin-top: 25px;
+}
+.studentBox h3 {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 117%;
+    
+}
+  
+@media (min-width: 320px) and (max-width: 500px) {
+    .presentBox {
+      grid-template-columns: 2fr;
+      grid-row: 2/2;
+    }
+
+    .presentBox img {
+        width: 380px;
+        height: 248px;
+        margin-top: 20px;
+        margin-left: -40px;
+        
+    }
+    .insideBox {
+        margin-top: 20px;
+    }
+}
+
+
+
+   
+    
+   
+
+    
+ 
+ 
+        
+        
+     
+     
+     
+     
+     
+
+
+
+
+   
+ 
+ 
+    
+ 
+   
+ 
+ 
+  
+    
+  
