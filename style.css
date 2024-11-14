@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 @font-face {
@@ -372,7 +373,7 @@ section {
 
 
 .Teacher h2 {
-    font-size: calc(30px + (58 - 30) * ((110vw - 320px) / (1280 - 320)));
+    font-size: 58px;
     font-weight: 500;
     margin-bottom: calc(5.2vw + 23px);
     text-transform: uppercase;
@@ -406,7 +407,7 @@ section {
 
 .aboutTeacher h4 {
     font-family: 'TTHoves-Medium';
-    font-size: calc(35px + (48 - 35) * ((100vw - 320px) / (1280 - 320)));
+    font-size: 48px;
     font-weight: 700;
     margin-top: auto;
     margin-bottom: 20px;
@@ -436,18 +437,21 @@ section {
 .skill span {
     display: block;
     margin-top: 10px;
-    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1280 - 320)));
+    font-size: 21px;
     line-height: 140%;
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
     .Teacher h2 {
         white-space: nowrap;
+        font-size: 30px;
     }
 
     .aboutTeacher h4 {
         white-space: nowrap;
+        font-size: 33px;
     }
+        
 
     .aboutTeacher P br {
         display: none;
@@ -459,7 +463,9 @@ section {
 
     .skill span {
         display: grid;
+        font-size: 15px;
     }
+   
 }
 
 
@@ -510,7 +516,7 @@ section {
 }
 
 .verstka h2 {
-    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-size: 58px;
     font-weight: 500;
     margin-top: calc(40px + (80 - 40) * ((110vw - 320px) / (1280 - 320)));
 
@@ -534,6 +540,7 @@ section {
     .verstka h2 {
         margin-right: 23px;
         margin-left: 23px;
+        font-size: 30px;
     }
 
     .column1,
@@ -557,7 +564,7 @@ section {
 .frameBox h3 {
     font-family: 'TTHoves-Medium';
     text-transform: uppercase;
-    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-size: 58px;
     font-weight: 500;
     line-height: 130%;
     
@@ -574,8 +581,8 @@ section {
  #corner {
     width:  calc(40px + (100 - 40) * ((110vw - 320px) / (1280 - 320)));
     position: absolute;
-    top: -4px;
-    right: -4px;
+    top: -3px;
+    right: -3px;
 }
 
  .lessons {
@@ -612,11 +619,16 @@ section {
     }
     .program button {
         margin-top: 34px;
+        width: 100%;
+        height: 100%;
     }
 
     .lessons li:last-child {
         border: 0;
         padding-bottom: 0;
+    }
+    .frameBox h3 {
+        font-size: 30px;
     }
 }
 
@@ -660,7 +672,7 @@ section {
        .Diplom img {
           grid-row: 2/3;
            width: 100%; 
-           height: 229px;
+           height: 100%;
         }
           
         .Diplom h3 {
@@ -699,8 +711,7 @@ section {
       width: 100%;
       height: 100%;
       margin-top: 20px;
-      margin-left: -15px;
-   }
+     }
    .job h3 {
     margin-right: 0;
    }
@@ -753,10 +764,10 @@ margin-top: 60px;
     }
 
     .presentBox img {
-        width: 380px;
-        height: 248px;
+        width: 100%;
+        height: 100%;
         margin-top: 20px;
-        margin-left: -40px;
+        
         
     }
     .insideBox {
