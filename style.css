@@ -19,6 +19,7 @@ section.main {
     background-position: top 121px right 58px;
     background-size: 35%;
     scroll-behavior: auto;
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 
 }
 
@@ -196,7 +197,7 @@ button.white {
 
 
 .description {
-    margin-bottom: 60px;
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
 
 .peoples {
@@ -307,6 +308,7 @@ section.Timer {
     flex-direction: column;
     align-items: center;
     padding: calc(4.7vw + 20px) 0 calc(5.5vw + 17px);
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
 
 .Timer h3 {
@@ -357,9 +359,7 @@ section.Timer {
 
 
 
-section {
-    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
-}
+
 
 
 .Teacher h2 {
@@ -372,6 +372,7 @@ section {
 
 .Teacher {
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
 .infoContainer {
     display: flex;
@@ -465,6 +466,7 @@ section {
 
 .verstka {
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
 .aboutus {
     display: grid;
@@ -555,6 +557,7 @@ section {
 
 .program {
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
 .frameBox h3 {
     font-family: 'TTHoves-Medium';
@@ -634,6 +637,7 @@ section {
     grid-template-columns: 1fr 3fr;
     gap: 20px;
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
     
     
@@ -682,6 +686,7 @@ section {
 
     .job {
         padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+        margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
     }
     .job h3 {
         font-family: 'TTHoves-Medium';
@@ -719,6 +724,7 @@ section {
 
   .studentBox {
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
   }
   
   .presentBox {
@@ -775,6 +781,7 @@ margin-top: 60px;
    
  .otzivy {
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
  } 
 
 .otzivy h3 {
@@ -922,6 +929,7 @@ margin-top: 60px;
    
    .aboutShool {
     padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
    }
 
    .aboutShool h2 {
@@ -1018,6 +1026,7 @@ margin-top: 60px;
 
 .dokazatelstvo {
     padding: 0 calc(23px + (119 - 23) * ((110vw - 320px) / (1280 - 320)));
+    margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
 .dokazatelstvo h3 {
     font-family: 'TTHoves-Medium';
