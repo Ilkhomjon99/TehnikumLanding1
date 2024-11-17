@@ -1109,7 +1109,7 @@ margin-top: 60px;
  
  .registerForm{
     position: relative;
-    
+    margin-top: 100px;
    margin-bottom: calc(150px + (80 - 150) * ((100vw - 320px) / (1280 - 320)));
    width: 475px;
    height: calc(529px + (600 - 529) * ((100vw - 320px) / (1280 - 320)));
@@ -1175,6 +1175,8 @@ margin-top: 60px;
     margin-top: 10px;
  }
  .havequestion{
+    display: block;
+    margin-left: -20px;
     margin-top: 40px;
     width: calc(271px + (353 - 271) * ((100vw - 320px) / (1280 - 320)));
     opacity: 50%;
@@ -1239,6 +1241,7 @@ margin-top: 60px;
     }
     .havequestion {
         width: 100%;
+        margin-left: 0;
     }
 }
         
