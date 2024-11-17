@@ -56,7 +56,7 @@ span {
     line-height: 29.4px;
 }
 
-h3 {
+.main h3 {
     font-size: 21px;
     font-weight: 700;
     line-height: 29.4px;
@@ -138,13 +138,13 @@ button.white {
 
     }
 
-    span {
+    .main span {
         font-size: 16px;
         font-weight: 400;
         line-height: 22.4px;
     }
 
-    h3 {
+    .main h3 {
         font-size: 16px;
         font-weight: 700;
         line-height: 22.4px;
@@ -195,13 +195,6 @@ button.white {
 
 
 
-
-
-
-
-
-
-
 .description {
     margin-bottom: 60px;
 }
@@ -239,7 +232,7 @@ button.white {
     margin-top: calc(10px + (20 - 10) * ((110vw - 320px) / (1280 - 320)));
 }
 
-h2 {
+.description h2 {
     margin-left: 120px;
     font-family: 'TTHoves-Medium';
     font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
@@ -275,7 +268,7 @@ h5 {
     }
 
 
-    h2 {
+   .description h2 {
         margin-left: 24px;
         margin-right: 23px;
     }
@@ -364,9 +357,6 @@ section.Timer {
 
 
 
-
-
-
 section {
     margin-bottom: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
 }
@@ -380,11 +370,13 @@ section {
     line-height: 117%;
 }
 
-
+.Teacher {
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+}
 .infoContainer {
     display: flex;
     gap: calc(3.2vw + 10px);
-    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    /* padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320))); */
     flex-wrap: wrap;
 }
 
@@ -445,11 +437,12 @@ section {
     .Teacher h2 {
         white-space: nowrap;
         font-size: 30px;
+        margin-left: 0;
     }
 
     .aboutTeacher h4 {
         white-space: nowrap;
-        font-size: 33px;
+        font-size: 35px;
     }
         
 
@@ -470,13 +463,15 @@ section {
 
 
 
-
+.verstka {
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+}
 .aboutus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     justify-content: space-between;
-    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+    /* padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320))); */
 
 }
 
@@ -519,7 +514,7 @@ section {
     font-size: 58px;
     font-weight: 500;
     margin-top: calc(40px + (80 - 40) * ((110vw - 320px) / (1280 - 320)));
-
+    font-family: 'TTHoves-Medium';
     text-transform: uppercase;
     line-height: 117%;
 }
@@ -539,9 +534,9 @@ section {
 
     .verstka h2 {
         margin-right: 23px;
-        margin-left: 23px;
         font-size: 30px;
     }
+       
 
     .column1,
     .column2,
@@ -778,8 +773,485 @@ margin-top: 60px;
 
 
    
-    
+ .otzivy {
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+ } 
+
+.otzivy h3 {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(30px + (58 - 30) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 117%;
+} 
+.swiper-feedbacks {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+
+.swiper-wrapper {
+    display: flex;
+} 
+
+.swiper-feedbacks {
    
+    display: flex;
+    gap: 30px;
+    margin-top: calc(20px + (40 - 20) * ((110vw - 320px) / (1280 - 320)));
+}
+
+
+    
+    
+.window {
+    width: 340px;
+    
+    height: 490px;
+    background-color: #F0F7FD;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+    
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+ .otziv1, .otziv2, .otziv3 {
+    margin-left: 0;
+    margin-top: 50px;
+   } 
+     
+   .window p {
+       font-size: calc(18px + (21 - 18) * ((100vw - 320px) / (1280 - 320)));
+       font-family: 'TTHoves-Medium';
+       line-height: 29px;
+        margin-top: 8px;
+        margin-right: 15px;
+       
+       }
+       
+       .studentInfo1 {
+           display: flex;
+           flex-direction: row;
+           margin-top: 60px;
+           margin-left: 15px;
+        }
+        .studentInfo2 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            margin-left: 15px;   
+        }
+        .studentInfo3 {
+            display: flex;
+           flex-direction: row;
+           margin-top: 5px;
+           margin-left: 15px;
+        }
+           
+        .studentName1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        .studentName2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        .studentName3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        
+        
+        h6 { 
+           font-size: calc(18px + (21 - 18) * ((100vw - 320px) / (1280 - 320)));
+           font-family: 'TTHoves-Medium';
+           line-height: 29px;
+           font-weight: 400;
+           margin-left: 15px;
+       }
+        @media (min-width: 320px) and (max-width: 500px) {
+        .window {
+            width: 100%;
+            height: 490px;
+            padding: 10px;
+            overflow-y: auto; 
+        }
+            
+        .otziv1, .otziv2, .otziv3 {
+            margin-left: 0;
+        }
+        .studentInfo1 {
+            margin-left: 0;
+        }
+        .studentInfo2 {
+            margin-top: 35px;
+            margin-left: 0;   
+        }
+            
+        .studentInfo3 {
+            margin-top: 10px;
+            margin-left: 0;
+        }
+            
+    }
+               
+            
+        
+
+
+   
+   
+   .aboutShool {
+    padding: 0 calc(24px + (119 - 24) * ((110vw - 320px) / (1280 - 320)));
+   }
+
+   .aboutShool h2 {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(34px + (58 - 34) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    margin-top: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
+    text-transform: uppercase;
+    line-height: 117%;
+    margin-bottom: 80px;
+   }
+    .tehnikums {
+        display: grid;
+        grid-template-columns: 3fr;
+        gap: 30px;
+        
+    }
+    .tehnikum {
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+    .tehnikum img {
+     width: 110px;
+     height: 110px;
+     /* margin-top: calc(34px + (80 - 34) * ((100vw - 320px) / (1280 - 320))); */
+    
+  }
+        
+  .tehnikum span {
+      font-size: calc(20px + (27 - 20) * ((100vw - 320px) / (1280 - 320)));
+      margin-top: calc(20px + (40 - 20) * ((100vw - 320px) / (1280 - 320)));
+      font-weight: 600;
+      line-height: 122%;
+      text-align: left;
+      width: 426px  ;
+      height: 114px;
+      font-family: 'TTHoves-Medium';
+  
+  }
+       
+  .graduate {
+    grid-column: 2/3; 
+    grid-row: 1/2;
+    
+}
+    
+.direction {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: calc(100px + (150 - 100) * ((100vw - 320px) / (1280 - 320)));
+}
+       
+.graduate p, .direction p {
+   font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1280 - 320)));
+   font-family: 'TTHoves-Medium';
+}
+
+.graduate h4, .direction h4 {
+    font-size: calc(34px + (58 - 34) * ((100vw - 320px) / (1280 - 320)));
+    font-weight: 700;
+    font-family: 'TTHoves-Medium';
+}
+   
+     
+@media (min-width: 320px) and (max-width: 500px) {
+   .aboutSchool {
+      display: grid;
+     grid-template-columns: 1fr;
+   }
+   .graduate {
+      grid-row: 2/3;
+      grid-column: 1/2;
+      
+   }
+   .direction {
+      grid-row: 2/3;
+      grid-column: 1/2;
+      width: 290px;
+     
+   }
+   .aboutSchool h2 {
+    white-space: nowrap;
+    width: 328;
+    height: 40px;
+   }
+   .tehnikum span {
+    
+    width: 290px;
+    height: 90px;
+   }
+   
+}
+
+
+.dokazatelstvo {
+    padding: 0 calc(23px + (119 - 23) * ((110vw - 320px) / (1280 - 320)));
+}
+.dokazatelstvo h3 {
+    font-family: 'TTHoves-Medium';
+    font-size: calc(30px + (58 - 30) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    margin-top: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
+    text-transform: uppercase;
+    line-height: 117%;
+}
+    
+
+.dokazatelstvo p {
+    font-size: calc(18px + (27 - 18) * ((100vw - 320px) / (1280 - 320)));
+    font-family: 'TTHoves-Medium';
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: calc(20px + (14 - 20) * ((110vw - 320px) / (1280 - 320)));
+    margin-right: 250px;
+    margin-bottom: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 500px)  {
+    .dokazatelstvo p {
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+.application{
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    color:#fff;
+    padding: calc(24px + (120 - 24) * ((100vw - 320px) / (1280 - 320)));
+}
+    
+ .register{
+    width: calc(328px + (475 - 328) * ((100vw - 320px) / (1280 - 320)));
+
+    
+ }
+ .regText {
+    margin-top: calc(40px + (80 - 40) * ((100vw - 320px) / (1280 - 320)));
+    margin-bottom:calc(44px + (187 - 44) * ((100vw - 320px) / (1280 - 320)));
+ }
+ .register h2{
+    width: calc(328px + (424 - 328) * ((100vw - 320px) / (1280 - 320)));
+    font-family: 'TTHoves-Medium';
+    font-size: calc(30px + (58 - 30) * ((110vw - 320px) / (1280 - 320)));
+    font-weight: 500;
+    margin-top: calc(60px + (160 - 60) * ((110vw - 320px) / (1280 - 320)));
+    text-transform: uppercase;
+    line-height: 117%;
+}
+   
+ .txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom:calc(20px + (24 - 20) * ((100vw - 320px) / (1280 - 320)));
+ }
+ .txt img{
+    align-self:center;
+    width:28px;
+    height: 28px;
+    margin-right: 20px;
+ }
+ .txt p{
+    font-family: 'TTHoves-Medium';
+    margin: 0;
+    font-size: calc(18px + (27 - 18) * ((100vw - 320px) / (1280 - 320)));
+    text-transform: uppercase;
+ }
+ 
+ .registerForm{
+    position: relative;
+    
+   margin-bottom: calc(150px + (80 - 150) * ((100vw - 320px) / (1280 - 320)));
+   width: 475px;
+   height: calc(529px + (600 - 529) * ((100vw - 320px) / (1280 - 320)));
+}
+   
+   
+ .Rgform{
+    margin-top: 10px;
+    margin-right: 24px;
+    background-color:#FFFFFF;
+    color:#222222;
+    text-align: center;
+    padding: 60px calc(30px + (69 - 30) * ((100vw - 320px) / (1280 - 320)));
+    border-radius:12px;
+    
+ }
+ .Rgform form {
+    margin-top: 30px;
+ }
+ .Rgform input {
+    font-family: 'TTHoves-Medium';
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+    outline: 0;
+    background: transparent;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+ 
+ 
+ 
+  .Rgform form button {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 12px ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid  #6E3ABA;
+ }
+ 
+ 
+ 
+ .Rgform h4{
+    font-family: 'TTHoves-Medium';
+    font-size: calc(26px + (30 - 26) * ((100vw - 320px) / (1280 - 320)));
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 118%;
+ }
+ .Rgform span{
+    font-family: 'TTHoves-Medium';
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1280 - 320)));
+    line-height: 140%;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .havequestion{
+    margin-top: 40px;
+    width: calc(271px + (353 - 271) * ((100vw - 320px) / (1280 - 320)));
+    opacity: 50%;
+ }
+ .havequestion p{
+    font-family: 'TTHoves-Medium';
+    font-size: 18px;
+    line-height: 21.2px;
+    margin: 0;
+ }
+ 
+ .havequestion h5{
+    font-family: 'TTHoves-Medium';
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 21.2px;
+ }
+ 
+ .circle {
+   position: relative;
+   width: calc(105px + (159 - 105) * ((100vw - 320px) / (1280 - 320)));
+   height: calc(105px + (159 - 105) * ((100vw - 320px) / (1280 - 320)));
+   margin-bottom: -100px;
+   margin-left: -70px;
+ }
+ 
+ .image-container {
+    position: relative;
+    width: calc(105px + (159 - 105) * ((100vw - 320px) / (1280 - 320)));
+    height: calc(105px + (159 - 105) * ((100vw - 320px) / (1280 - 320)));
+ 
+ }
+ 
+ #skidka {
+    width: calc(105px + (159 - 105) * ((100vw - 320px) / (1280 - 320)));
+    height: calc(105px + (159 - 105) * ((100vw - 320px) / (1280 - 320)));  
+ }
+ 
+ .discount-text {
+    font-family: 'TTHoves-Medium';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(40px + (63 - 40) * ((100vw - 320px) / (1280 - 320))); 
+    color: white; 
+    font-weight: bold;
+ }
+ 
+ @media (max-width: 600px) {
+    .circle {
+        margin-bottom: -70px;
+        margin-left: 70%;
+    }
+    
+    .register h2 {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .registerForm {
+        width: 100%;
+    }
+    .havequestion {
+        width: 100%;
+    }
+        
+
+
+
+    
+ }
+ 
+ 
+     
+     
+     
+     
+     
+     
+              
+
+
+     
+
+
+
+
 
     
  
