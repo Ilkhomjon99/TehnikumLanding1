@@ -1057,6 +1057,7 @@ margin-top: 60px;
     gap: 30px;
     color:#fff;
     padding: calc(24px + (120 - 24) * ((100vw - 320px) / (1280 - 320)));
+    margin-bottom: 0;
 }
     
  .register{
@@ -1230,12 +1231,12 @@ margin-top: 60px;
     .havequestion {
         width: 100%;
     }
+}
         
 
 
 
     
- }
  
  
      
